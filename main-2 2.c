@@ -36,7 +36,8 @@ void affiche_plateau(char plateau[9])
 // Fonction pour vérifier si quelqu'un a gagné et retourne le caractère du gagnant
 char a_un_gagnant(char plateau[9])
 {
-    int conditions_de_victoire[8][3] = {
+    int conditions_de_victoire[8][3] = 
+    {
         {0, 1, 2}, {3, 4, 5}, {6, 7, 8}, // lignes
         {0, 3, 6},
         {1, 4, 7},
